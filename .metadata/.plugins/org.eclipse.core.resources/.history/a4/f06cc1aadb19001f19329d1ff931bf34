@@ -1,0 +1,88 @@
+package jp.fixie.test;
+
+public class AssignmentAPI2 {
+	
+	// 大問2 - Javaの標準API			
+	// 小問2
+
+	static int value1 = -10;
+	static double value2 = 5;
+	static double value3 = -10.5;
+	
+	public static void main(String[] args) {
+		System.out.println("API-小問2");
+
+//		double compare1;
+//        double compare2;
+//        double compare3;
+//        double compare4;
+//        compare1 = Math.max(value1, value2);
+//        compare2 = Math.max(Math.abs(value1), Math.abs(value2));
+//        compare3 = Math.min(value1, value2);
+//        compare4 = Math.min(Math.abs(value1), Math.abs(value2));
+//        
+//        System.out.println("compare1 = " + compare1);
+//        System.out.println("compare2 = " + compare2);
+//        System.out.println("compare3 = " + compare3);
+//        System.out.println("compare4 = " + compare4);
+		
+//        double random1 = Math.random();
+//        int random2 = (int) (Math.random() * 10);
+//        
+//        System.out.println("random1 = " + random1);
+//        System.out.println("random2 = " + random2);
+
+//		Scanner sc = new Scanner(System.in);
+//        String hoge1 = sc.next();
+//        
+//        String hoge2 = sc.next();
+//        
+//        String inputResult = hoge1 + hoge2;
+//
+//        System.out.println("input1 = " + hoge1);
+//        System.out.println("input2 = " + hoge2);
+//        System.out.println("inputResult = " + inputResult);
+
+        String str1 = "Java研修";
+
+        String str2 = "Java";
+
+        String str3 = "研修";
+
+        System.out.println(str1.equals(str2));
+
+        String combinedStr = str2 + str3;
+        System.out.println(str1.equals(combinedStr));
+
+        System.out.println(str1.charAt(1));
+
+        System.out.println(str1.indexOf('v'));
+
+        System.out.println(str1.indexOf('k'));
+
+        System.out.println(str1.isEmpty());
+
+        System.out.println(str1.length());
+
+        System.out.println(str1.replace(str2, str3));
+
+        System.out.println(str1.substring(3));
+
+        System.out.println(str1.substring(3, 5));
+
+        System.out.println(str1.toUpperCase());
+
+        System.out.println(str1.toLowerCase());
+
+        String str4 = " Java研修 ";
+
+        System.out.println(str4.trim());
+
+        double str5 = 1234;
+
+        System.out.println(String.valueOf(str5));
+
+
+
+	}
+}

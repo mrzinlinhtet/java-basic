@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;oop-02-inheritence&apos; to &apos;oop-02-inheritance&apos;" description="Rename resource &apos;oop-02-inheritence&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/oop-02-inheritence" name="oop-02-inheritance" stamp="1715435644918" updateReferences="true"/>
+</session>

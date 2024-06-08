@@ -1,0 +1,12 @@
+package jp.fixie.test;
+
+public class AssignmentArray1 {
+	
+	// 大問3 - 配列
+	// 小問1
+	public static void main(String[] args) {
+		
+	}
+
+
+}

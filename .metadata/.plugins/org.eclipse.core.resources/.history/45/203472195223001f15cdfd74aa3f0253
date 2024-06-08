@@ -1,0 +1,21 @@
+package com.jdc.demo.before;
+
+public class UsingDaysOfWeek {
+
+	public static String getDayType(int day) {
+		return switch (day) {
+		case DaysOfWeek.SAT, DaysOfWeek.SUN -> "Weekend";
+		case DaysOfWeek.MON, DaysOfWeek.TUE, DaysOfWeek.WED, DaysOfWeek.THU, DaysOfWeek.FRI -> "Weekday";
+		default -> "Impossible";
+		};
+	}
+	
+	public static void main(String[] args) {
+		var firstDay = DaysOfWeek.MON;
+		
+		firstDay = -10;
+		
+		System.out.println(firstDay);
+	}
+
+}

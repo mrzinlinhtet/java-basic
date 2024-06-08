@@ -1,0 +1,19 @@
+package com.jdc.solid.liskov.failure;
+
+public class Square extends Shape {
+
+	@Override
+	public void setBase(int base) {
+		// TODO Auto-generated method stub
+		super.setBase(base);
+		setHeight(base);
+	}
+
+	@Override
+	public void setHeight(int height) {
+		// TODO Auto-generated method stub
+		super.setHeight(height);
+		setBase(height);
+	}
+
+}

@@ -1,0 +1,19 @@
+package jp.fixie.test;
+
+public class AssignmentArray1 {
+	
+	// 大問3 - 配列
+	// 小問1
+	public static void main(String[] args) {
+		String[] array1 = {"Java","研修","配列","課題"};
+		String[] array2 = new String[4];
+		array2[0] = "Java";
+		array2[1] = "研修";
+		array2[2] = "配列";
+		array2[3] = "課題";
+		System.out.println("array1 = " + array1);
+		System.out.println("array2 = " + array2);
+	}
+
+
+}

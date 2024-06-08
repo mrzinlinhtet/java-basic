@@ -1,0 +1,17 @@
+package com.jdc.demo.before;
+
+public enum EnumDaysOfWeek {
+
+	MON(""), TUE(""), WED(""), THU(""), FRI(""), SAT(""), SUN("");
+
+	private String displayName;
+
+	private EnumDaysOfWeek(String displayName) {
+
+	}
+
+	public String getDisplayName() {
+		return displayName;
+	}
+
+}

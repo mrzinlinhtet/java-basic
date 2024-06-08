@@ -1,0 +1,29 @@
+package jp.fixie.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AssignmentList1 {
+	
+	// 大問4	 - java.util.List
+	// 小問1
+	
+	public static void main(String[] args) {
+		System.out.println("リスト-小問1");
+		
+		List arrayList1 = new ArrayList();
+
+	    // Step 3: Insert the number [1] at the end of the element of [arrayList1]
+	    arrayList1.add(1);
+
+	    // Step 4: Insert the string ["Java"] at the end of the element of [arrayList1]
+	    arrayList1.add("Java");
+
+	    // Step 5: Insert the number [1.5] at the end of the element of [arrayList1]
+	    arrayList1.add(1.5);
+
+	    // Step 6: Output the value of variable [arrayList1] to the console
+	    System.out.println(arrayList1);
+
+	}
+}

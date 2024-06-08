@@ -1,0 +1,19 @@
+package jp.fixie.test;
+
+public class AssignmentAPI3 {
+	
+	// 大問2 - Javaの標準API			
+	// 小問2
+
+	static int value1 = -10;
+	static double value2 = 5;
+	static double value3 = -10.5;
+	
+	public static void main(String[] args) {
+		System.out.println("API-小問5");
+        double random1 = Math.random();
+        int random2 = (int) (Math.random() * 10);
+        System.out.println("random1 = " + random1);
+        System.out.println("random2 = " + random2);
+	}
+}

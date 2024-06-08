@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.PrimeNumbers"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.students.StudentRegistry"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.students.Student"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.oop.DrivingCourse"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.oop.CarFactory"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.oop.SportSuvCar"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.oop.Vehicle"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.oop.Motorcycle"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.oop.SportCar"/>
+    <fullyQualifiedTypeName name="com.jdc.basic.oop.hiding.Super"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.features.ProductAddFeature"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.features.ProductSearchFeature"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.features.SalesItemsFeature"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.PosApplication"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.features.SaleHistoryFeature"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.models.ProductModelImpl"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.models.Product"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.models.SaleItem"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.models.Sale"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.models.ProductModel"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.models.SaleModel"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.models.SaleModelImpl"/>
+    <fullyQualifiedTypeName name="com.jdc.pos.features.AbstractFeature"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.before.DaysOfWeek"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.before.EnumDaysOfWeek"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.bridge.AccountStatus"/>
+</qualifiedTypeNameHistroy>

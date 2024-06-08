@@ -1,0 +1,14 @@
+package com.jdc.demo.before;
+
+public enum AccountStatus {
+	Applied, Approved, Rejected, Preprovation {
+		@Override
+		public String getDisplayName() {
+			return "Pre-provation";
+		}
+	};
+
+	public String getDisplayName() {
+		return name();
+	}
+}
