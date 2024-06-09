@@ -18,7 +18,6 @@
     <fullyQualifiedTypeName name="com.jdc.basic.oop.Motorcycle"/>
     <fullyQualifiedTypeName name="com.jdc.basic.oop.SportCar"/>
     <fullyQualifiedTypeName name="com.jdc.basic.oop.hiding.Super"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.jdc.pos.features.ProductAddFeature"/>
     <fullyQualifiedTypeName name="com.jdc.pos.features.ProductSearchFeature"/>
@@ -41,4 +40,21 @@
     <fullyQualifiedTypeName name="com.jdc.demo.before.EnumDaysOfWeek"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.jdc.demo.bridge.AccountStatus"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.usage.NotNull"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.usage.domain.Student"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.usage.processor.FieldsValidationException"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.usage.processor.FieldsValidator"/>
+    <fullyQualifiedTypeName name="com.jdc.demo.usage.NotBlank"/>
 </qualifiedTypeNameHistroy>
