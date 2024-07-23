@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Java\workspace\api-01-exceptions"/>
 			<item value="D:\Java\workspace"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -25,13 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.prj02.annotations"/>
 		</list>
 		<list key="groupId">
-			<item value="com.jdc.basic"/>
 		</list>
 		<list key="artifactId">
-			<item value="prj02-annotations"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -52,8 +50,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="prj02-annotations"/>
-			<item value="oop-08-type-of-classes"/>
+			<item value="api-02-generics"/>
+			<item value="ep02-exception-types-and-overriding"/>
+			<item value="api-01-exceptions"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -81,6 +80,10 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="ep02-exception-types-and-overriding"/>
+			<item value="ep01-callstack"/>
+			<item value="prj04-sealed-classes"/>
+			<item value="prj03-record"/>
 			<item value="prj02-annotations"/>
 			<item value="prj01-enum-classes"/>
 		</list>
@@ -92,5 +95,11 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="580"/>
+		<item key="x" value="720"/>
+		<item key="y" value="124"/>
 	</section>
 </section>

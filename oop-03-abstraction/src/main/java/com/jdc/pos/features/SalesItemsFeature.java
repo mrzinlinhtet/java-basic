@@ -3,6 +3,7 @@ package com.jdc.pos.features;
 import java.util.Arrays;
 
 import com.jdc.console.app.AbstractFeature;
+import com.jdc.pos.features.exceptions.InputValueInvalidException;
 import com.jdc.pos.models.Product;
 import com.jdc.pos.models.ProductModel;
 import com.jdc.pos.models.Sale;
@@ -49,14 +50,18 @@ public class SalesItemsFeature extends AbstractFeature {
 	private Product getProduct() {
 
 		while (true) {
-			var id = getInputInt("Enter Product ID : ");
-			var product = productModel.findById(id);
-
-			if (null != product) {
-				return product;
+			try {
+				var id = getInputInt("Enter Product ID : ", 3, "Please enter product id with digit");
+				return productModel.findById(id);
+			} catch (InputValueInvalidException e) {
+				System.out.println(e.getMessage());
+				System.out.println();
 			}
-
-			System.out.printf("There is no product with id : %d.%n%n", id);
+//			if (null != product) {
+//				return product;
+//			}
+//
+//			System.out.printf("There is no product with id : %d.%n%n", id);
 		}
 	}
 

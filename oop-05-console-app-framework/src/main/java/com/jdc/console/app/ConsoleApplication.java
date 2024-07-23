@@ -7,7 +7,6 @@ public class ConsoleApplication {
 	private AbstractFeature[] features;
 	private Scanner scanner;
 
-	
 	public ConsoleApplication(AbstractFeature[] features) {
 		super();
 		this.features = features;
@@ -18,12 +17,12 @@ public class ConsoleApplication {
 		showMessage("Pos Application");
 
 		do {
-			var feature = getUserSelectFeature();
-
-			if (null == feature) {
-				break;
+			try {
+				var feature = getUserSelectFeature();
+				feature.doBusiness();
+			} catch (ArrayIndexOutOfBoundsException e) {
+				System.out.println("Please enter valid menu id.");
 			}
-			feature.doBusiness();
 
 		} while (doAgain());
 	}
@@ -35,15 +34,14 @@ public class ConsoleApplication {
 			System.out.println(feature.getTitle());
 		}
 
-		System.out.print("Enter menu id : ");
+		System.out.println();
 
+		System.out.print("Enter menu id : ");
 		var result = scanner.nextLine();
 		var resultId = Integer.parseInt(result);
 
-		if (resultId <= features.length) {
-			return features[resultId - 1];
-		}
-		return null;
+		return features[resultId - 1];
+
 	}
 
 	private boolean doAgain() {

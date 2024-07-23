@@ -1,5 +1,0 @@
-package com.jdc.demo.before;
-
-public interface DaysOfWeek {
-
-}
