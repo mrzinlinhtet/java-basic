@@ -53,25 +53,4 @@ public class StudentRepositoryWithSet implements StudentRepository {
 		}
 		return false;
 	}
-
-	private void validate(Student student) {
-		var messages = new LinkedHashSet<String>();
-		if (null == student.name() || student.name().isBlank()) {
-			messages.add("Please enter student name");
-		}
-
-		if (null == student.dob()) {
-			messages.add("Please enter dob");
-		}
-
-		if (null == student.gender()) {
-			messages.add("Please enter gender");
-		}
-
-		if (!messages.isEmpty()) {
-			throw new BusinessException(messages);
-		}
-
-	}
-
 }

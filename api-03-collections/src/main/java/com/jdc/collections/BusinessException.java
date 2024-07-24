@@ -20,5 +20,4 @@ public class BusinessException extends RuntimeException {
 	public Set<String> getMessages() {
 		return messages;
 	}
-
 }
