@@ -18,11 +18,4 @@ public class BeforeAndAfterTest {
 	static Stream<Arguments> test_data() {
 		return Stream.of(Arguments.of(List.of(1, 2, 3, 4, 5)));
 	}
-
-	@ParameterizedTest
-	@MethodSource("test_data")
-	void test_after(List<Integer> list) {
-		BeforeAndAfter.before(list);
-	}
-
 }
